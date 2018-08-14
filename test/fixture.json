@@ -1,0 +1,19 @@
+{
+    "fixtures": {
+        "send": {
+            "msg": {
+                "body": {
+                    "msidsn": "+4916090418976",
+                    "text": "fixtureText"
+                }
+            },
+            "cfg": {
+                "AppId": "{{xmsgwAppId}}",
+                "AppSec": "{{xmsgwAppSec}}",
+                "PmiKey": "{{xmsgwPmiKey}}",
+                "GuId": "{{xmsgwGuId}}",
+                "SMSUri": "{{xmsgwSMSUri}}"
+            }
+        }
+    }
+}

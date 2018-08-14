@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "msisdn": {
+            "type": "string",
+            "required": true,
+            "title": "MSISDN"
+        },
+        "text": {
+            "type": "string",
+            "required": true,
+            "title": "Text"
+        }
+    }
+}

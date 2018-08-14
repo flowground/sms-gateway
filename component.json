@@ -1,0 +1,16 @@
+{
+  "title": "SMS Gateway",
+  "description": "SMS Versand per Telekom SMS Gateway",
+  "docsUrl": "https://github.com/elasticio/hello-world-nodejs",
+  "actions": {
+    "send": {
+      "main": "./lib/actions/send.js",
+      "title": "send",
+      "metadata": {
+        "in": "./lib/schemas/send.in.json",
+        "out": "./lib/schemas/send.out.json"
+      }
+    }
+  }
+}
+
