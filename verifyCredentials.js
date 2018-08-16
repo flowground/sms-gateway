@@ -15,3 +15,5 @@ function verify(credentials) {
     console.log('About to verify credentials');
     cb(null, { verified: true });
 }
+
+// todo: add GUID
