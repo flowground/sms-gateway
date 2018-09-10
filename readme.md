@@ -10,8 +10,8 @@ To successful configure this connector you will need 5 parameters:
 3. `AppId`:   a token to identify the requested service
 
 ### Credentials:
-4. `guid`:    a customer specific token
-5. `pmiKey`:  a billing related token
+4. `GUID`:    a customer specific token
+5. `PMI KEY`:  a billing related token
 
 **For security concerns all the tokens will be provided in a secure location.**
 
