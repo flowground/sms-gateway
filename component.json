@@ -1,6 +1,22 @@
 {
   "title": "SMS Gateway",
   "description": "SMS Versand per Telekom SMS Gateway",
+  "credentials": {
+    "fields": {
+      "guid": {
+        "label":"GUID",
+        "required": true,
+        "viewClass": "TextFieldWithNoteView",
+        "note": "Please enter your Telekom customer key for the SMS Gateway!"
+      },
+      "pmiKey": {
+        "label":"PMI KEY",
+        "required": true,
+        "viewClass": "TextFieldWithNoteView",
+        "note": "Please enter your PMI key!"
+      }
+    }
+  },
   "docsUrl": "https://github.com/elasticio/hello-world-nodejs",
   "actions": {
     "send": {
@@ -13,4 +29,3 @@
     }
   }
 }
-
