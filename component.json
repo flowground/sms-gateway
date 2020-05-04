@@ -1,6 +1,7 @@
 {
   "title": "SMS Gateway",
   "description": "SMS Versand per Telekom SMS Gateway",
+  "buildType": "docker",
   "credentials": {
     "fields": {
       "guid": {
