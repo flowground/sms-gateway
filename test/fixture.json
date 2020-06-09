@@ -13,6 +13,7 @@
                 "PmiKey": "{{xmsgwPmiKey}}",
                 "GuId": "{{xmsgwGuId}}",
                 "SMSUri": "{{xmsgwSMSUri}}"
+                "originator": "{{xmsgwOriginator}}"
             }
         }
     }

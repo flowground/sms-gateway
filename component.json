@@ -15,6 +15,12 @@
         "required": true,
         "viewClass": "TextFieldWithNoteView",
         "note": "Please enter your PMI key!"
+      },
+      "originator": {
+        "label":"Originator",
+        "required": false,
+        "viewClass": "TextFieldWithNoteView",
+        "note": "Enter an optional originator"
       }
     }
   },
